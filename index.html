@@ -1,26 +1,32 @@
-<input id="nome" placeholder="Nome">
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fila de Prioridade</title>
+</head>
+
+<body>
+
+<h2>Fila de Prioridade</h2>
+
+<input id="nome" placeholder="Nome do paciente">
 
 <select id="prioridade">
-
     <option value="1">Baixa</option>
-
     <option value="2">Média</option>
-
     <option value="3">Alta</option>
-
     <option value="4">Muito Alta</option>
-
     <option value="5">Emergência</option>
-
 </select>
 
-<button onclick="adicionar()">
-Adicionar
-</button>
+<button onclick="adicionar()">Adicionar</button>
 
-<button onclick="atenderPaciente()">
-Atender
-</button>
+<button onclick="atenderPaciente()">Atender</button>
 
 <ul id="fila"></ul>
-<script src="scrpt.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
