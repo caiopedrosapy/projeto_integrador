@@ -1,0 +1,115 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#eaf6ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+/* ===========================
+   CONTAINER
+=========================== */
+
+body{
+    flex-direction:column;
+}
+
+h2{
+    color:#1565c0;
+    margin-bottom:25px;
+    font-size:32px;
+}
+
+/* ===========================
+   INPUT E SELECT
+=========================== */
+
+input,
+select{
+    width:300px;
+    padding:12px;
+    margin:10px 0;
+    border:2px solid #64b5f6;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+    background:white;
+    transition:.3s;
+}
+
+input:focus,
+select:focus{
+    border-color:#1976d2;
+    box-shadow:0 0 10px rgba(25,118,210,.25);
+}
+
+/* ===========================
+   BOTÕES
+=========================== */
+
+button{
+    padding:12px 25px;
+    margin:10px 5px;
+    border:none;
+    border-radius:10px;
+    background:#1976d2;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0d47a1;
+    transform:translateY(-2px);
+}
+
+/* ===========================
+   LISTA
+=========================== */
+
+ul{
+    list-style:none;
+    width:350px;
+    margin-top:25px;
+}
+
+ul li{
+    background:white;
+    margin-bottom:12px;
+    padding:15px;
+    border-left:8px solid #42a5f5;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    color:#0d47a1;
+    font-weight:bold;
+}
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+@media(max-width:450px){
+
+    input,
+    select,
+    ul{
+        width:90%;
+    }
+
+    button{
+        width:90%;
+    }
+
+}
