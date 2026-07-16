@@ -1,8 +1,8 @@
-#  Projeto Integrador 3 - Sistema de Pré-Triagem Inteligente
+# Sistema de Pré-Triagem Inteligente
 
 ##  Descrição
 
-Este projeto foi desenvolvido para a disciplina de Projeto Integrador III com o objetivo de simular um sistema de pré-triagem para a Atenção Primária à Saúde.
+Este projeto foi desenvolvido com o objetivo de simular um sistema de pré-triagem para a Atenção Primária à Saúde.
 
 O sistema utiliza um banco de dados relacional para armazenar informações de pacientes, profissionais, unidades de saúde (UBS) e exames, além de implementar uma fila de prioridade para organizar o atendimento conforme o nível de urgência de cada paciente.
 
